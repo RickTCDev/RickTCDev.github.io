@@ -1,0 +1,70 @@
+.habilidades-conhecimentos {
+  background-color: var(--cor7);
+}
+
+.habilidades {
+  max-width: 1100px;
+  padding: 190px;
+  margin: 0 auto;
+  gap: 50px;
+  
+}
+
+.habilidades h2 {
+  color: var(--cor8);
+  font-size: 8rem;
+  text-transform: uppercase;
+}
+
+.habilidades h3 {
+  color: var(--cor3);
+}
+
+.habilidades p {
+  color: var(--cor5);
+  font-size: 1.35rem;
+    line-height: 1.5;
+}
+
+.habilidades-texto {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 90px;
+    margin-bottom: 80px;
+}
+
+.habilidades-descricao p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.habilidades-descricao {
+display: flex;
+flex-wrap: wrap;
+gap: 50px;
+}
+
+.descri-h3 {
+  height: 40px;
+}
+
+.descricao {
+  background-color: var(--cor8);
+  border: 1px solid var(--cor6);
+  display: grid;
+  flex: 1;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 50px;
+  align-content: start;
+}
+
+.icon {
+  justify-items: end;
+}
+
+.icone-descri {
+  height: 80px;
+  place-items: center;
+
+}

@@ -1,0 +1,67 @@
+.header {
+  max-width: 1100px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-nav-horizontal {
+  display: none;
+}
+
+.header-menu {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header-menu a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: var(--cor8);
+  display: block;
+}
+
+.header-menu a:hover {
+  color: var(--cor1);
+  transition: 1s;
+}
+
+.nav-redes-sociais {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: end;
+  fill: var(--cor1);
+}
+
+/* .nav-redes-sociais a:hover {
+  fill: var(--cor1); */
+
+@media (max-width: 800px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 20px 40px;
+  }
+  .header nav a {
+    background: var(--cor4);
+    border-radius: 5px;
+  }
+
+  .nav-redes-sociais {
+    grid-row: 1;
+    grid-column: 2;
+  }
+  /* dúvida sobre o grid 
+    .header-menu {
+        grid-column: span 2
+    } 
+    */
+}

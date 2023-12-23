@@ -1,0 +1,34 @@
+@import url("https://use.typekit.net/wvu6igx.css");
+
+body {
+  margin: 0px;
+  font-family: "roc-grotesk", sans-serif;
+  color: var(--cor-07);
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+a,
+ul {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+img[src$=".jpg"] {
+  border-radius: 5px;
+}

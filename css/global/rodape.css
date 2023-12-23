@@ -1,0 +1,76 @@
+.rodape-bg {
+  background-color: var(--cor-06);
+}
+.rodape {
+  max-width: 1200px;
+  padding: 200px 100px 200px 100px;
+  margin: 0 auto;
+}
+
+.rodape-intro {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+.logo-rodape {
+  width: 50%;
+  padding-right: 200px;
+}
+
+.instagram-rodape {
+  display: flex;
+  gap: 10px;
+}
+
+.navegacao {
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.contato-rodape {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.navegacao-rodape {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.marca-direitos {
+  padding: 20px 50px;
+  text-align: center;
+  color: var(--cor-04);
+  background-color: var(--cor-07);
+  border: 1px solid var(--cor-05);
+}
+
+.navegacao-contato li :hover {
+  color: var(--p-01);
+  transition: 0.3s;
+}
+
+.navegacao-contato a :hover {
+  color: var(--p-01);
+  transition: 0.3s;
+}
+
+@media (max-width:1000px) {
+  .rodape-intro {
+    grid-template-columns: 1fr;
+  }
+  .logo-rodape {
+    display: none;
+  }
+}
+
+@media (max-width:500px) {
+  .rodape {
+    padding: 200px 50px 200px 50px;
+  }
+}

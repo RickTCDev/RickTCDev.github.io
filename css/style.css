@@ -1,0 +1,15 @@
+@import "global/global.css";
+@import "global/header.css";
+@import "ultilidades/componentes.css";
+@import "ultilidades/cores.css";
+@import "ultilidades/tipografia.css";
+@import "home/intro.css";
+@import "home/sobre.css";
+@import "home/habilidades.css";
+@import "home/conhecimentos.css";
+@import "home/projetos.css";
+@import "home/formacao.css";
+@import "home/cursos.css";
+@import "home/experiencia.css";
+@import "global/rodape.css"
+

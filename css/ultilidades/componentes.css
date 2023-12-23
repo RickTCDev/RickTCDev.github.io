@@ -1,0 +1,58 @@
+.box-1 {
+  display: grid;
+  padding: 50px;
+  flex: 1;
+  gap: 20px;
+  border-radius: 5px;
+  border: 1px solid var(--cor-05);
+  background-color: var(--cor-07);
+}
+
+.box-hover :hover {
+  border: 1px solid var(--p-01);
+  background-color: var(--cor-08);
+  transition: 0.5s;
+  gap: 20px;
+  border-radius: 5px;
+}
+
+.botao-saiba-mais {
+  display: flex;
+  gap: 5px;
+  text-transform: uppercase;
+  max-width: max-content;
+}
+
+.botao-saiba-mais :hover {
+  font-weight: 700;
+  transition: .3s;
+}
+
+.botao-saiba-mais-cursos {
+  justify-content: end;
+  padding-top: 50px;
+  display: flex;
+  gap: 10px;
+  text-transform: uppercase;
+}
+
+.botao-saiba-mais-cursos :hover {
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.padding-botton-15px {
+  padding-bottom: 15px;
+}
+
+.padding-botton-20px {
+  padding-bottom: 20px;
+}
+
+.padding-botton-30px {
+  padding-bottom: 30px;
+}
+
+.padding-botton-40px {
+  padding-bottom: 40px;
+}

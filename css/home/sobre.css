@@ -1,0 +1,27 @@
+.sobre-bg {
+  background-color: var(--cor-02);
+}
+
+.sobre {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+  padding: 0px 100px 250px 100px;
+}
+
+@media (max-width: 900px) {
+  .sobre {
+    grid-template-columns: 1fr;
+  }
+
+  .sobre h2 {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .sobre {
+    padding: 0px 50px 250px 50px;
+  }
+}

@@ -4,228 +4,265 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rick - Desenvolvedor e Designer</title>
-    <link rel="stylesheet" href="style.min.css">
-    <link rel="icon" href="favicon/favicon.svg" type="image/svg+xml">
+    <title>Portifólio - Rick</title>
+    <meta name="description" content="Olá! Sou o Rick, graduado em Publicidade e formando em Analise e Desenvolvimento de Sistemas. Atualmente, estudo HTML, CSS, JavaScript e tecnologias relacionadas a afim de aprimorar minhas habilidades em desenvolvimento web. Trago um olhar atento para o design, visando não apenas a funcionalidade, mas também a estética em cada projeto. Mantenho o compromisso com a excelência e o profissionalismo em tudo o que faço.
+
+    Estou em busca da minha primeira oportunidade para trabalhar oficialmente na área de TI como desenvolvedor Front End, em uma possível vaga de estágio ou junior.">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
+
 <body>
-    <header class="header">
-        <a href="#sobre"><img class="logo-nav" src="arquivos/logo/logo.svg" alt="rick"></a>
-        <nav>
-            <ul class="header-menu">
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#conhecimentos">Conhecimentos</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-            </ul>
-        </nav>
-        <nav class="nav-redes-sociais">
-            <li><a href="#"><img src="arquivos/icones social/git.svg" alt="Github"></a></li>
-            <li><a href="#"><img src="arquivos/icones social/behance.svg" alt="Behance"></a></li>
-            <li><a href="#"><img src="arquivos/icones social/linkedin.svg" alt="Linkedin"></a></li>
-        </nav>
+    <header class="header-bg">
+        <div class="header">
+            <a href="./"><img src="arquivos/logo/logo.svg" alt="logo"></a>
+            <nav aria-label="primaria" class="header-menu-mobile">
+                <ul class="header-menu c-04 b3">
+                    <li><a href="./Sobre">Sobre</a></li>
+                    <li><a href="./Co
+                        nhecimentos">Conhecimentos</a></li>
+                    <li><a href="./Projetos">Projetos</a></li>
+                </ul>
+            </nav>
+            <nav aria-label="primaria" class="header-social-mobile">
+                <ul class="header-social">
+                    <li><a href=""><img src="arquivos/icones social/git.svg" alt="github"></a></li>
+                    <li><a href=""><img src="arquivos/icones social/behance.svg" alt="behance"></a></li>
+                    <li><a href=""><img src="arquivos/icones social/linkedin.svg" alt="linkedin"></a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <introducao class="introducao">
-            <div class="introducao-texto">
-                <h1>Desenvolvedor <br> Front-End, UX/UI & <br> Brand Designer <span class="ponto-cor1">.</span></h1>
-                <p>Construindo Pontes Digitais, Pixel a Pixel.</p>
-            </div>
-            <img class="foto-retrato" src="arquivos/img/retrato.jpg" alt="foto-retrato">
-        </introducao>
-        <section class="sobre">
-            <h2>So<br>bre</h2>
-            <p>Olá! Sou o Rick, graduado em <strong>Publicidade</strong> e formando em <strong>Analise e Desenvolvimento de Sistemas</strong>. Atualmente, estudo <strong>HTML, CSS, JavaScript</strong> e tecnologias relacionadas a afim de aprimorar minhas habilidades em <strong>desenvolvimento web</strong>. Trago um olhar atento para o <strong>design</strong>, visando não apenas a funcionalidade, mas também a estética em cada projeto. Mantenho o compromisso com a <strong>excelência</strong> e o <strong>profissionalismo</strong> em tudo o que faço. <br> <br>
-
-                Estou em busca da minha primeira oportunidade para trabalhar oficialmente na área de TI como <strong>desenvolvedor Front End</strong>, em uma possível vaga de estágio ou junior.</p>
-        </section>
-        <section class="habilidades-conhecimentos">
-            <div class="habilidades">
-                <div class="habilidades-texto">
-                    <h2>
-                        servi <br>
-                        ços
-                    </h2>
-                    <p><strong>Prototipo</strong> e <strong>codifico interfaces envolventes</strong>, além de construir identidades marcantes, unindo estética e funcionalidade para criar soluções visuais inovadoras. Com abordagem multidisciplinar, meu trabalho harmoniza estética e usabilidade, proporcionando <strong>experiências memoráveis.</strong></p>
+        <article class="intro-bg">
+            <div class="intro-home">
+                <div class="texto-intro">
+                    <h1 class="h1-b">Desenvolvedor Front-End, UX/UI & Brand Designer.</h1>
+                    <p class="b1 primaria-01">Construindo Pontes Digitais, Pixel a Pixel.</p>
                 </div>
-                <div class="habilidades-descricao">
-                    <div class="descricao">
-                        <div class="icone-descri">
-                            <img class="icon" src="arquivos/icones habilidades/ui ux.svg" alt="">
-                        </div>
-                        <h3 class="descri-h3">UI Design</h3>
-                        <p>Projeto interfaces intuitivas, focando na estética e usabilidade para criar experiências visuais envolventes e funcionais</p>
-                    </div>
-                    <div class="descricao">
-                        <div class="icone-descri">
-                            <img class="icon" src="arquivos/icones habilidades/dev.svg" alt="">
-                        </div>
-                        <h3 class="descri-h3">Desenvolvimento WEB</h3>
-                        <p>Desenvolvo interfaces visuais interativas, otimizando a experiência do usuário por meio de codificação.</p>
-                    </div>
-                    <div class="descricao">
-                        <div class="icone-descri">
-                            <img class="icon" src="arquivos/icones habilidades/caneta.svg" alt="">
-                        </div>
-                        <h3 class="descri-h3">Brand Design</h3>
-                        <p>Desenho logotipos impactantes que expressam a essencia da marca, proporcionando identidades visuais únicas e memoráveis.</p>
-                    </div>
-                </div>
-            </div>
-            <section class="conhecimentos">
                 <div>
-                    <h2>
-                        Conhe <br>
-                        cimen <br>
-                        tos
-                    </h2>
-                    <!-- <p>Passe o cursor sobre os ícones para visualizar o conteúdo.</p> -->
+                    <img class="retrato" src="arquivos/img/retrato.jpg" alt="Retrato Perfil">
                 </div>
-                <ul class="conheci-icones">
-                    <img class="icones-conhecimentos" src="arquivos/icones conhecimentos/html.svg" alt="">
-                    <img class="icones-conhecimentos" src="arquivos/icones conhecimentos/css.svg" alt="">
-                    <img class="icones-conhecimentos" src="arquivos/icones conhecimentos/javascript.svg" alt="">
-                    <img class="icones-conhecimentos" src="arquivos/icones conhecimentos/git.svg" alt="">
-                    <img class="icones-conhecimentos" src="arquivos/icones conhecimentos/gitbesh.svg" alt="">
-                    <img class="icones-conhecimentos" src="arquivos/icones conhecimentos/Vector.svg" alt="">
-                    <img class="icones-conhecimentos" src="arquivos/icones conhecimentos/ps.svg" alt="">
-                    <img class="icones-conhecimentos" src="arquivos/icones conhecimentos/ai.svg" alt="">
-                    <img class="icones-conhecimentos" src="arquivos/icones conhecimentos/ae.svg" alt="">
-                </ul>
-            </section>
-        </section>
-        <section class="projetos-formacao-cursos-experiencia-">
-            <section class="projetos-margin">
-                <div class="projetos1">
-                    <h2 class="h2-projetos">Projetos</h2>
-                    <p>Confira alguns dos meus projetos, onde cada criação espelha meu entusiasmo pela inovação e busca pela excelência.</p>
-                </div>
-                <h3>Front End</h3>
-                <div class="projetos-box">
-                    <div class="Em-andamento">
-                        <h4>rick</h4>
-                        <p>Site portfólio pessoal, feito com HTML, CSS e Javascript.</p>
-                        <p class="p-hover">Vizualizar projeto</p>
-                    </div>
-                    <div class="Em-andamento">
-                        <h4>Em andamento</h4>
-                        <p>Projeto em construção. Aguarde novidades.</p>
-                        <p class="p-hover">Em breve</p>
-                    </div>
-                    <div class="Em-andamento">
-                        <h4>Em andamento</h4>
-                        <p>Projeto em construção. Aguarde novidades.</p>
-                        <p class="p-hover"> Em breve </p>
-                    </div>
-                </div>
-                <h3>Brand Desing</h3>
-                <div class="projetos-box">
-                    <div class="Em-andamento">
-                        <h4>rick</h4>
-                        <p>Identidade visual desenvolvida para negócio do ramo tecnológico.</p>
-                        <p class="p-hover">Vizualizar projeto</p>
-                    </div>
-                    <div class="Em-andamento">
-                        <h4>netexperts</h4>
-                        <p>Identidade visual desenvolvida para empresa do ramo tecnológico.</p>
-                        <p class="p-hover">Vizualizar projeto</p>
-                    </div>
-                    <div class="Em-andamento">
-                        <h4>med center</h4>
-                        <p>Identidade visual desenvolvida para empresa do ramo farmacêutico.</p>
-                        <p class="p-hover">Vizualizar projeto</p>
-                    </div>
-                </div>
-            </section>
-            <section class="formacao">
-                <div class="projetos">
-                    <h2 class="h2-projetos">Formação Acadêmica</h2>
-                    <div class="projetos-descri-geral">
-                        <p>Formado em Publicidade, atualmente estou imerso na graduação de Análise e Desenvolvimento de Sistemas, onde venho aprimorando minhas habilidades e minha compreensão dos fundamentos do desenvolvimento Front End.</p>
-                        <div class="box-formacao">
-                            <div class="forma-academic">
-                                <h4>Publicidade & Propaganda</h4>
-                                <p class="academic-p">Bacharel - UNIVÁS</p>
-                            </div>
-                            <div class="forma-academic">
-                                <h4>Análise e Desenvolvimento de Sistemas</h4>
-                                <p class="academic-p">Tecnólogo - Descomplica</p>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+        </article>
+        <article class="sobre-bg">
+            <div class="sobre">
+                <h2 class="h2-b primaria-01">Sobre</h2>
+                <div>
+                    <p class="b1">Olá! Sou o Rick, graduado em <strong>Publicidade</strong> e formando em <strong>Analise e Desenvolvimento de Sistemas.</strong> Atualmente, estudo <strong>HTML, CSS, JavaScript</strong> e tecnologias relacionadas a afim de aprimorar minhas habilidades em desenvolvimento web. Trago um olhar atento para o design, visando não apenas a funcionalidade, mas também a estética em cada projeto. Mantenho o <strong>compromisso com a excelência e o profissionalismo em tudo o que faço.</strong> </p> <br>
 
+                    <p class="b1">Estou em busca da minha primeira oportunidade para trabalhar oficialmente na área de TI como <strong>desenvolvedor Front End</strong>, em uma possível vaga de estágio ou junior.</p>
                 </div>
-                <div class="projetos">
-                    <h2 class="h2-projetos">Cursos</h2>
-                    <div class="projetos-descri-geral">
-                        <p>Comprometido com aprendizado contínuo, busco aprimorar minhas habilidades constantemente. Atualmente, dedico-me a cursos de desenvolvimento web, consolidando expertise em HTML, CSS, JavaScript e tecnologias correlatas. Meu objetivo é manter-me atualizado e contribuir significativamente em projetos desafiadores.</p>
-                        <div class="box-formacao2">
-                            <div class="forma-academic">
-                                <h4>UI Design</h4>
-                                <p class="cursos-p">UI Design para iniciantes com carga horário de 17h, pela plataforma Origamid.</p>
-                                <p class="academic-p-hover">Ver Certificado</p>
-                            </div>
-                            <div class="forma-academic">
-                                <h4>HTML e CSS</h4>
-                                <p class="cursos-p">HTML e CSS para iniciantes com carga horário de 23h, pela plataforma Origamid.</p>
-                                <p class="academic-p-hover">Ver Certificado</p>
-                            </div>
-                            <div class="forma-academic">
-                                <h4>CSS Flex box</h4>
-                                <p class="cursos-p">CSS Flex box com carga horário de 3 horas, pela plataforma Origamid.</p>
-                                <p class="academic-p-hover">Ver Certificado</p>
-                            </div>
-                            <div class="forma-academic">
-                                <h4>CSS Grid Layout</h4>
-                                <p class="cursos-p">CSS Grid Layout com carga horário de 5 horas, pela plataforma Origamid.</p>
-                                <p class="academic-p-hover">Ver Certificado</p>
-                            </div>
+            </div>
+        </article>
+        <article class="habilidades-bg ">
+            <div class="habilidades">
+                <article class="habilidades-intro">
+                    <h2 class="h2-b primaria-01">Habilidades</h2>
+                    <p class="b1 cor-04">Com abordagem <strong>multidisciplinar</strong>, meu trabalho harmoniza estética e usabilidade, proporcionando <strong>experiências memoráveis.</strong>
+                    </p>
+                </article>
+                <ul class="habilidades-lista">
+                    <li class="box-1">
+                        <img src="arquivos/icones habilidades/ui ux.svg" alt="">
+                        <p class="b2 cor-03">UI Desing</p>
+                        <p class="b2-l cor-04">Projeto interfaces intuitivas para criar experiências visuais envolventes.</p>
+                    </li>
+                    <li class="box-1">
+                        <img src="arquivos/icones habilidades/dev.svg" alt="">
+                        <p class="b2 cor-03">Desenvovimento</p>
+                        <p class="b2-l cor-04">Projeto interfaces intuitivas para criar experiências visuais envolventes.</p>
+                    </li>
+                    <li class="box-1" i>
+                        <img src="arquivos/icones habilidades/caneta.svg" alt="">
+                        <p class="b2 cor-03">Brand Desing</p>
+                        <p class="b2-l cor-04">Desenho identidades visuais únicas, memoráveis e impactantes.</p>
+                    </li>
+                </ul>
+            </div>
+        </article>
+        <article class="conhecimentos-bg">
+            <div class="conhecimentos">
+                <div class="conhecimentos-intro">
+                    <h2 class="h2-b primaria-01">Conhecimentos</h2>
+                    <p class="b1-t cor-04">*Passe o cursor sobre os ícones para <strong>visualizar o conteúdo</strong>.*</p>
+                </div>
+                <div class="conhecimentos-box">
+                    <img class="conhecimentos-icones" src="arquivos/icones conhecimentos/html.svg" alt="">
+                    <img class="conhecimentos-icones" src="arquivos/icones conhecimentos/css.svg" alt="">
+                    <img class="conhecimentos-icones" src="arquivos/icones conhecimentos/javascript.svg" alt="">
+                    <img class="conhecimentos-icones" src="arquivos/icones conhecimentos/typescript.svg" alt="">
+                    <img class="conhecimentos-icones" src="arquivos/icones conhecimentos/tailwind.svg" alt="">
+                    <img class="conhecimentos-icones" src="arquivos/icones conhecimentos/git.svg" alt="">
+                    <img class="conhecimentos-icones" src="arquivos/icones conhecimentos/figma.svg" alt="">
+                    <img class="conhecimentos-icones" src="arquivos/icones conhecimentos/photoshop.svg" alt="">
+                    <img class="conhecimentos-icones" src="arquivos/icones conhecimentos/ilustrator.svg" alt="">
+                    <img class="conhecimentos-icones" src="arquivos/icones conhecimentos/after.svg" alt="">
+                </div>
+            </div>
+        </article>
+        <article class="projetos-bg">
+            <div class="projetos">
+                <div class="projetos-intro">
+                    <h2 class="h2-b primaria-01">Projetos</h2>
+                    <p class="b1 cor-04">Confira <strong>alguns dos meus projetos</strong>, onde cada criação espelha meu entusiasmo pela inovação e busca pela excelência.
+                    </p>
+                </div>
+                <h3 class="s1 primaria-01">Desenvolvimento</h3>
+                <div class="projetos-desenvolvimentos-flex">
+                    <div class="projeto-desenvolvimentos">
+                        <div class="box-projetos-box"><img class="box-projetos-imagem" src="arquivos/projetos-dev/projetos rick dev.svg" alt=""></div>
+                        <h3 class="cor-04 b1 padding-botton-15px">rick</h3>
+                        <div>
+                            <a class="botao-saiba-mais" href="">
+                                <p class="button primaria-01">Saiba mais</p>
+                                <img src="arquivos/icones/seta.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projeto-desenvolvimentos">
+                        <div class="box-projetos-box"><img class="box-projetos-imagem" src="arquivos/projetos-dev/projetos em breve dev.svg" alt=""></div>
+                        <h3 class="cor-04 b1 padding-botton-15px">Em andamento</h3>
+                        <div class="botao-saiba-mais">
+                            <p class="button primaria-01">Em breve</p>
                         </div>
                     </div>
                 </div>
-                <div class="projetos">
-                    <h2 class="h2-projetos">Experiência Profissional</h2>
-                    <div class="projetos-descri-geral">
-                        <h3 class="titulo-exp">Zero 35 Marketing & Negócios.</h3>
-                        <p class="subtitulo-exp">Maio de 2021 - até o momento</p>
-                        <p>Uma sólida experiência de dois anos e meio em uma agência de publicidade, onde desempenhei o papel crucial na criação de identidades visuais, produção gráfica e campanhas publicitárias.</p>
+                <h3 class="s1 primaria-01">Brand Design</h3>
+                <div class="projetos-desenvolvimentos-flex">
+                    <ul class="projeto-desenvolvimentos">
+                        <li class="box-projetos-box"><img class="box-projetos-imagem" src="arquivos/projetos-dev/projetos rick.svg" alt=""></li>
+                        <li>
+                            <h3 class="cor-04 b1 padding-botton-15px">rick</h3>
+                        </li>
+                        <div>
+                            <a class="botao-saiba-mais" href="">
+                                <p class="button primaria-01">Saiba mais</p>
+                                <img src="arquivos/icones/seta.svg" alt="">
+                            </a>
+                        </div>
+                    </ul>
+                    <ul class="projeto-desenvolvimentos">
+                        <li class="box-projetos-box"><img class="box-projetos-imagem" src="arquivos/projetos-dev/projetos netexperts.svg" alt=""></li>
+                        <li>
+                            <h3 class="cor-04 b1 padding-botton-15px">netexperts</h3>
+                        </li>
+                        <div>
+                            <a class="botao-saiba-mais" href="">
+                                <p class="button primaria-01">Saiba mais</p>
+                                <img src="arquivos/icones/seta.svg" alt="">
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </article>
+        <article class="formacao-academica-bg">
+            <div class="formacao-academica">
+                <div class="formacao-academica-intro">
+                    <h2 class="h2-b primaria-01">Formação Acadêmica</h2>
+                    <div>
+                        <p class="b1 cor-04">Formado em <strong>Publicidade</strong>, atualmente estou imerso na graduação de <strong>Análise e Desenvolvimento de Sistemas</strong>, onde venho aprimorando minhas habilidades e minha compreensão dos fundamentos do desenvolvimento Front End.
+                        </p>
+                        <ul class="faculdade-lista">
+                            <li class="faculdade cor-04 faculdade-box ">
+                                <h4 class="b1-b cor-03">Pubiclidade & Propaganda</h4>
+                                <p class="b3-l">Bacharel - UNIVÁS</p>
+                            </li>
+                            <li class="faculdade cor-04 faculdade-box">
+                                <h4 class="b1-b cor-03">Análise e Desenvolvimento de Sistemas</h4>
+                                <p class="b3-l">Tecnólogo - Descomplica</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </section>
-        </section>
-    </main>
-    <footer class="bg-footer">
-        <div class="rodape">
-            <img src="arquivos/logo/logo horizontal.svg" alt="">
-            <div>
-                <p class="paragrafo-footer">Estou aberto a novas propostas. Fique à vontade para entrar em contato e agendar uma conversa para discutirmos oportunidades.</p>
-                <div class="footer-colums">
-                    <ul>
-                        <li><a href="">Navegação</a></li>
-                        <li><a href="">Sobre</a></li>
-                        <li><a href="">Habilidades</a></li>
-                        <li><a href="">Conhecimentos</a></li>
-                        <li><a href="">Projetos</a></li>
-                        <li><a href="">Formação Acadêmica</a></li>
-                        <li><a href="">Cursos</a></li>
-                        <li><a href="">Experiência Profissional</a></li>
-                    </ul>
+            </div>
+        </article>
+        <article class="cursos-bg">
+            <article class="cursos">
+                <div class="cursos-intro">
+                    <h2 class="h2-b primaria-01">Cursos</h2>
                     <div>
-                        <ul>
-                            <li>Contato</li>
+                        <p class="b1 cor-04">Comprometido com aprendizado contínuo, busco aprimorar minhas habilidades constantemente. Meu objetivo é <strong>manter-me atualizado e contribuir significativamente em projetos desafiadores.</strong>
+                        </p>
+                        <ul class="cursos-lista">
+                            <li class="cor-04 cursos-box ">
+                                <h4 class="b1-b cor-03">UI Desing</h4>
+                                <p class="b3-r padding-botton-30px">UI Design para iniciantes com carga horário de 17h, pela plataforma Origamid.</p>
+                                <p class="b3-l"><a href="">Ver Certificado</a></p>
+                            </li>
+                            <li class="cor-04 cursos-box">
+                                <h4 class="b1-b cor-03">HTML e CSS</h4>
+                                <p class="b3-r padding-botton-30px">HTML e CSS para iniciantes com carga horário de 23h, pela plataforma Origamid.</p>
+                                <p class="b3-l"><a href="">Ver Certificado</a></p>
+                            </li>
+                            <li class="cor-04 cursos-box">
+                                <h4 class="b1-b cor-03">CSS Flex Box</h4>
+                                <p class="b3-r padding-botton-30px">CSS Flex box com carga horário de 3 horas, pela plataforma Origamid.</p>
+                                <p class="b3-l"><a href="">Ver Certificado</a></p>
+                            </li>
+                            <li class="cor-04 cursos-box">
+                                <h4 class="b1-b cor-03">CSS Grid Layout</h4>
+                                <p class="b3-r padding-botton-30px">HTML e CSS para iniciantes com carga horário de 23h, pela plataforma Origamid.</p>
+                                <p class="b3-l"><a href="">Ver Certificado</a></p>
+                            </li>
                         </ul>
-                        <p>henriquetcunha00@gmail.com</p>
-                        <div class="instagram">
-                            <img src="arquivos/icones social/instagram.svg" alt="">
-                            <p>@ricktcunha</p>
+                        <div class="botao-saiba-mais-cursos">
+                            <a class="botao-saiba-mais-cursos" href="">
+                                <p class="button primaria-01">Ver mais</p>
+                                <img src="arquivos/icones/seta.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            </div>
+            <article class="experiencia-bg">
+                <div class="experiencia">
+                    <div class="experiencia-intro">
+                        <h2 class="h2-b primaria-01">Experiência Profissional</h2>
+                        <div>
+                            <div class="exp-zero35">
+                                <p class="b3-l cor-04">Maio de 2021 - Até o momento</p>
+                                <h3 class="b1-b cor-03">Zero 35 marketing & Negócios.</h3>
+                            </div>
+                            <p class="b1 cor-04">Uma sólida experiência de <strong>três anos em uma agência de publicidade</strong>, onde desempenhei o papel crucial na criação de identidades visuais, produção gráfica e campanhas publicitárias.
+                            </p>
+                        </div>
+                    </div>
+            </article>
+    </main>
+    <footer>
+        <div class="rodape-bg">
+            <div class="rodape cor-03">
+                <div class="rodape-intro b1">
+                    <img class="logo-rodape" src="arquivos/logo/logo horizontal.svg" alt="">
+                    <div>
+                        <p class="b1 cor-03"><strong>Estou aberto a novas propostas.</strong> Fique à vontade para entrar em contato para marcarmos uma conversa e discutirmos <strong>possíveis oportunidades.</strong></p>
+                        <div class="navegacao">
+                            <ul class="navegacao-rodape cor-04">
+                                <h4 class="b1 cor-03"><strong>Navegação</strong></h4>
+                                <li class="b3-l"><a href="">Sobre</a></li>
+                                <li class="b3-l"><a href="">Habilidades</a></li>
+                                <li class="b3-l"><a href="">Conhecimentos</a></li>
+                                <li class="b3-l"><a href="">Projetos</a></li>
+                            </ul>
+                            <ul class="contato-rodape cor-04">
+                                <h4 class="b1 cor-03"><strong>Contato</strong></h4>
+                                <li class="b3-l">henriquetcunha00gmail.com</li>
+                                <li class="b3-l">(35) 9 9765-7991</li>
+                                <div>
+                                    <a class="instagram-rodape b3-l" href="">
+                                        <img src="arquivos/icones social/instagram.svg" alt="">
+                                        <li>@ricktcunha</li>
+                                    </a>
+                                </div>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            <p class="direitos">Rick. Todos os direitos reservados</p>
         </div>
+        <p class="marca-direitos b3-r"><strong>Rick</strong>. Todos os direitos reservados</p>
     </footer>
 </body>
-
-</html>

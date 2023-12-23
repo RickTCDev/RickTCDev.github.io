@@ -1,0 +1,52 @@
+.formacao-academica-bg {
+  background-color: var(--cor-07);
+}
+
+.formacao-academica {
+  max-width: 1200px;
+  padding: 150px 100px 0px 100px;
+  margin: 0 auto;
+}
+
+.formacao-academica-intro {
+  display: grid;
+  grid-template-columns: 1.1fr 2fr;
+  padding-bottom: 100px;
+}
+
+.faculdade-lista {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+.faculdade-box {
+    background-color: var(--cor-06);
+    border: 1px solid var(--cor-05);
+    justify-content: space-between;
+    border-radius: 5px;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px; 
+}
+
+@media (max-width: 900px) {
+  .formacao-academica-intro {
+    grid-template-columns: 1fr;
+  }
+
+  .formacao-academica-intro h2 {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .formacao-academica {
+    padding: 150px 50px 0px 50px;
+  }
+}
+

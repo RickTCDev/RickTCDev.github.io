@@ -23,14 +23,19 @@
   max-width: max-content;
 }
 
+.botao-saiba-mais p {
+  display: flex;
+  justify-self: center;
+}
+
 .botao-saiba-mais :hover {
   font-weight: 700;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .botao-saiba-mais-cursos {
   justify-content: end;
-  padding-top: 50px;
+  padding-top: 25px;
   display: flex;
   gap: 10px;
   text-transform: uppercase;

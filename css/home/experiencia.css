@@ -4,7 +4,7 @@
 
 .experiencia {
   max-width: 1200px;
-  padding: 0px 100px 200px 100px;
+  padding: 0px 100px 100px 100px;
   margin: 0 auto;
 }
 
@@ -33,6 +33,16 @@
 
 @media (max-width: 500px) {
   .experiencia {
-    padding: 0px 50px 200px 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .experiencia-intro h2 {
+    font-size: 1.2rem;
+  }
+  .experiencia-intro h3 {
+    font-size: 1.1rem;
+  }
+  .experiencia-intro p {
+    font-size: 1rem;
   }
 }

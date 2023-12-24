@@ -4,7 +4,7 @@
 
 .formacao-academica {
   max-width: 1200px;
-  padding: 150px 100px 0px 100px;
+  padding: 0px 100px 0px 100px;
   margin: 0 auto;
 }
 
@@ -15,23 +15,23 @@
 }
 
 .faculdade-lista {
-    display: flex;
-    gap: 50px;
-    flex-wrap: wrap;
-    padding-top: 100px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-top: 50px;
 }
 
 .faculdade-box {
-    background-color: var(--cor-06);
-    border: 1px solid var(--cor-05);
-    justify-content: space-between;
-    border-radius: 5px;
-    flex: 1;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    padding: 50px;
-    gap: 20px; 
+  background-color: var(--cor-06);
+  border: 1px solid var(--cor-05);
+  justify-content: space-between;
+  border-radius: 5px;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 50px;
+  gap: 20px;
 }
 
 @media (max-width: 900px) {
@@ -45,8 +45,30 @@
 }
 
 @media (max-width: 500px) {
+  .faculdade-box {
+    padding: 25px 50px;
+  }
   .formacao-academica {
-    padding: 150px 50px 0px 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .formacao-academica h2 {
+    font-size: 1.2rem;
+  }
+
+  .formacao-academica p {
+    font-size: 1rem;
+  }
+  .faculdade-lista h4 {
+    font-size: 1.1rem;
+  }
+  .faculdade-lista p {
+    font-size: 0.8rem;
+  }
+  .projetos-desenvolvimentos-flex {
+    padding-bottom: 0px;
+  }
+  .projeto-desenvolvimentos {
+    padding-bottom: 25px;
   }
 }
-

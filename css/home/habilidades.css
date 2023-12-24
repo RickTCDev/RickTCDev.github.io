@@ -3,17 +3,17 @@
 }
 .habilidades {
   max-width: 1200px;
-  padding: 250px 100px 300px 100px;
+  padding: 100px 100px 100px 100px;
   margin: 0 auto;
 }
 .habilidades-intro {
   display: grid;
   grid-template-columns: 1.1fr 2fr;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .habilidades-lista {
-  gap: 40px;
+  gap: 20px;
   display: flex;
 }
 
@@ -37,6 +37,17 @@
 
 @media (max-width: 500px) {
   .habilidades {
-    padding: 250px 50px 300px 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .habilidades h2 {
+    font-size: 1.2rem;
+  }
+
+  .habilidades p {
+    font-size: 1rem;
+  }
+  .habilidades-intro {
+    padding-bottom: 50px;
   }
 }

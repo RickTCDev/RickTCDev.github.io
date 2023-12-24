@@ -5,12 +5,12 @@
 .projetos {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 250px 100px 25px 100px;
+  padding: 100px 100px 0px 100px;
 }
 .projetos-intro {
   display: grid;
   grid-template-columns: 1.1fr 2fr;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .projeto-desenvolvimentos {
@@ -33,8 +33,8 @@
 .projetos-desenvolvimentos-flex {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 50px;
-  padding-bottom: 150px;
+  gap: 40px;
+  padding-bottom: 50px;
 }
 
 @media (max-width: 900px) {
@@ -67,6 +67,28 @@
 
 @media (max-width: 500px) {
   .projetos {
-    padding: 250px 50px 25px 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .projetos-intro h2 {
+    font-size: 1.2rem;
+  }
+  .projetos > h3 {
+    font-size: 1.1rem;
+  }
+  .projetos-intro p {
+    font-size: 1rem;
+  }
+
+  .projeto-desenvolvimentos h3 {
+    font-size: 1rem;
+  }
+
+  .projeto-desenvolvimentos p {
+    font-size: 0.6rem;
+  }
+  .projetos-desenvolvimentos-flex {
+    gap: 25px;
+    padding-bottom: 50px;
   }
 }

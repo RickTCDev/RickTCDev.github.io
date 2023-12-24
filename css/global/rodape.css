@@ -3,7 +3,7 @@
 }
 .rodape {
   max-width: 1200px;
-  padding: 200px 100px 200px 100px;
+  padding: 100px 100px 100px 100px;
   margin: 0 auto;
 }
 
@@ -50,17 +50,17 @@
   border: 1px solid var(--cor-05);
 }
 
-.navegacao-contato li :hover {
+.navegacao-rodape li :hover {
   color: var(--p-01);
   transition: 0.3s;
 }
 
-.navegacao-contato a :hover {
+.navegacao-rodape a :hover {
   color: var(--p-01);
   transition: 0.3s;
 }
 
-@media (max-width:1000px) {
+@media (max-width: 900px) {
   .rodape-intro {
     grid-template-columns: 1fr;
   }
@@ -69,8 +69,21 @@
   }
 }
 
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .rodape {
-    padding: 200px 50px 200px 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .rodape-intro p {
+    font-size: 1rem;
+  }
+  .rodape-intro h4 {
+    font-size: 1rem;
+  }
+  .rodape-intro li {
+    font-size: 0.8rem;
+  }
+  footer > p {
+    font-size: 0.8rem !important;
   }
 }

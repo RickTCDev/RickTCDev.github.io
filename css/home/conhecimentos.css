@@ -1,16 +1,16 @@
 .conhecimentos-bg {
-background-color: var(--cor-06);
+  background-color: var(--cor-06);
 }
 
 .conhecimentos {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0px 100px 250px 100px;
+  padding: 0px 100px 100px 100px;
 }
 .conhecimentos-intro {
   display: grid;
   grid-template-columns: 1.1fr 2fr;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .conhecimentos-box {
@@ -19,7 +19,7 @@ background-color: var(--cor-06);
   gap: 20px;
 }
 
-.conhecimentos-box :hover{
+.conhecimentos-box :hover {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -28,8 +28,17 @@ background-color: var(--cor-06);
 }
 
 .conhecimentos-icones {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 20%;
+  flex-grow: 1;
+  height: 130px;
   border: 1px solid var(--cor-05);
   border-radius: 5px;
+  background-color: var(--cor-07);
 }
 
 @media (max-width: 900px) {
@@ -42,8 +51,22 @@ background-color: var(--cor-06);
   }
 }
 
+@media (max-width: 700px) {
+  .conhecimentos-icones {
+    width: 40%;
+  }
+}
+
 @media (max-width: 500px) {
   .conhecimentos {
-    padding: 0px 50px 250px 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .conhecimentos h2 {
+    font-size: 1.2rem;
+  }
+
+  .conhecimentos p {
+    font-size: 1rem;
   }
 }

@@ -1,13 +1,12 @@
 .intro-bg {
   background-color: var(--cor-02);
-  padding-bottom: 250px;
 }
 
 .intro-home {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  padding: 0px 100px 0px 100px;
+  padding: 0px 100px 100px 100px;
   grid-template-columns: 2.5fr 1fr;
 }
 .texto-intro > h1 {
@@ -29,8 +28,6 @@
   .retrato {
     height: 100%;
     object-fit: cover;
-  
-
   }
 }
 
@@ -48,22 +45,44 @@
 
 @media (max-width: 700px) {
   .texto-intro > h1 {
-    font-size: 3.5rem
+    font-size: 3.5rem;
   }
 }
 
 @media (max-width: 600px) {
   .texto-intro > h1 {
-    font-size: 3rem
+    font-size: 3rem;
   }
 }
 
 @media (max-width: 500px) {
   .texto-intro > h1 {
-    font-size: 2.5rem
+    font-size: 2.5rem;
   }
   .intro-home {
-    padding: 0px 50px;
+    padding: 0px 20px;
   }
 }
 
+@media (max-width: 400px) {
+  .intro-home {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .texto-intro > h1 {
+    font-size: 1.7rem;
+  }
+  .sobre  h2 {
+    font-size: 1.2rem ;
+  }
+  .intro-home p {
+    font-size: 1rem;
+}
+.texto-intro > h1 {
+  padding-bottom: 10px;
+}
+.texto-intro {
+  padding-bottom: 50px;
+}
+
+}

@@ -37,12 +37,12 @@
     padding-left: 30px;
   }
   .experiencia-intro h2 {
-    font-size: 1.2rem;
-  }
-  .experiencia-intro h3 {
     font-size: 1.1rem;
   }
-  .experiencia-intro p {
+  .experiencia-intro h3 {
     font-size: 1rem;
+  }
+  .experiencia-intro p {
+    font-size: .9rem;
   }
 }

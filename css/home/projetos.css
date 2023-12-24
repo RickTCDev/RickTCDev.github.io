@@ -27,7 +27,7 @@
 .box-projetos-box {
   padding: 100px 50px;
   background-color: var(--cor-06);
-  margin: 50px 0px;
+  margin: 25px 0px;
 }
 
 .projetos-desenvolvimentos-flex {
@@ -71,17 +71,17 @@
     padding-left: 30px;
   }
   .projetos-intro h2 {
-    font-size: 1.2rem;
-  }
-  .projetos > h3 {
     font-size: 1.1rem;
   }
-  .projetos-intro p {
+  .projetos > h3 {
     font-size: 1rem;
+  }
+  .projetos-intro p {
+    font-size: .9rem;
   }
 
   .projeto-desenvolvimentos h3 {
-    font-size: 1rem;
+    font-size: .9rem;
   }
 
   .projeto-desenvolvimentos p {

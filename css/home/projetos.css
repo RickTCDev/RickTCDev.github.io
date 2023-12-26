@@ -1,5 +1,5 @@
 .projetos-bg {
-  background-color: var(--cor-06);
+  background-color: var(--cor-07);
 }
 
 .projetos {
@@ -21,7 +21,11 @@
 .box-projetos-imagem {
   width: 100dvw;
   border-radius: 5px;
-  box-shadow: 6px 6px 29px rgba(0, 0, 0, 0.4);
+  box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.4);
+}
+
+.box-projetos-imagem:hover {
+  box-shadow: 0px 0px 30px var(--p-01);
 }
 
 .box-projetos-box {

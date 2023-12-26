@@ -8,7 +8,7 @@
   background-color: var(--cor-07);
 }
 
-.box-hover :hover {
+.box-1:hover {
   border: 1px solid var(--p-01);
   background-color: var(--cor-08);
   transition: 0.5s;

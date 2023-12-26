@@ -15,6 +15,7 @@
 .logo-rodape {
   width: 50%;
   padding-right: 200px;
+  display: block;
 }
 
 .instagram-rodape {
@@ -50,12 +51,12 @@
   border: 1px solid var(--cor-05);
 }
 
-.navegacao-rodape li :hover {
+.navegacao li :hover {
   color: var(--p-01);
   transition: 0.3s;
 }
 
-.navegacao-rodape a :hover {
+.navegacao a :hover {
   color: var(--p-01);
   transition: 0.3s;
 }

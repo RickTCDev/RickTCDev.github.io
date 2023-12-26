@@ -34,6 +34,11 @@
   padding: 50px;
   gap: 20px;
 }
+.faculdade-box:hover {
+border: 1px solid var(--p-01);
+background-color: var(--cor-08);
+transition: .5s;
+}
 
 @media (max-width: 900px) {
   .formacao-academica-intro {

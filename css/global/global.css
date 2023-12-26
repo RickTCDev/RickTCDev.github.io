@@ -6,6 +6,10 @@ body {
   color: var(--cor-07);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,

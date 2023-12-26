@@ -5,23 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio - Rick</title>
-    <meta name="description" content="Olá! Sou o Rick, graduado em Publicidade e formando em Analise e Desenvolvimento de Sistemas. Atualmente, estudo HTML, CSS, JavaScript e tecnologias relacionadas a afim de aprimorar minhas habilidades em desenvolvimento web. Trago um olhar atento para o design, visando não apenas a funcionalidade, mas também a estética em cada projeto. Mantenho o compromisso com a excelência e o profissionalismo em tudo o que faço.
-
-    Estou em busca da minha primeira oportunidade para trabalhar oficialmente na área de TI como desenvolvedor Front End, em uma possível vaga de estágio ou junior.">
+    <meta name="description" content="Olá! Sou o Rick, graduado em Publicidade e formando em Analise e Desenvolvimento de Sistemas. Atualmente, estudo HTML, CSS, JavaScript e tecnologias relacionadas a afim de aprimorar minhas habilidades em desenvolvimento web. Trago um olhar atento para o design, visando não apenas a funcionalidade, mas também a estética em cada projeto. Mantenho o compromisso com a excelência e o profissionalismo em tudo o que faço.">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-
 <body>
-    <header class="header-bg">
+    <header id="home" class="header-bg">
         <div class="header">
             <a href="./"><img src="arquivos/logo/logo.svg" alt="logo"></a>
             <nav aria-label="primaria" class="header-menu-mobile">
                 <ul class="header-menu c-04 b3">
-                    <li><a href="./Sobre">Sobre</a></li>
-                    <li><a href="./Co
-                        nhecimentos">Conhecimentos</a></li>
-                    <li><a href="./Projetos">Projetos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
                 </ul>
             </nav>
             <nav aria-label="primaria" class="header-social-mobile">
@@ -45,7 +41,7 @@
                 </div>
             </div>
         </article>
-        <article class="sobre-bg">
+        <article id="sobre" class="sobre-bg">
             <div class="sobre">
                 <h2 class="h2-b primaria-01">Sobre</h2>
                 <div>
@@ -53,10 +49,10 @@
                 </div>
             </div>
         </article>
-        <article class="habilidades-bg ">
+        <article id="servicos" class="habilidades-bg ">
             <div class="habilidades">
                 <article class="habilidades-intro">
-                    <h2 class="h2-b primaria-01">Habilidades</h2>
+                    <h2 class="h2-b primaria-01">Serviços</h2>
                     <p class="b1 cor-04">Com abordagem <strong>multidisciplinar</strong>, meu trabalho harmoniza estética e usabilidade, proporcionando <strong>experiências memoráveis.</strong>
                     </p>
                 </article>
@@ -101,7 +97,7 @@
                 </div>
             </div>
         </article>
-        <article class="projetos-bg">
+        <article id="projetos" class="projetos-bg">
             <div class="projetos">
                 <div class="projetos-intro">
                     <h2 class="h2-b primaria-01">Projetos</h2>
@@ -178,7 +174,7 @@
                 </div>
             </div>
         </article>
-        <article class="cursos-bg">
+        <article id="cursos" class="cursos-bg">
             <article class="cursos">
                 <div class="cursos-intro">
                     <h2 class="h2-b primaria-01">Cursos</h2>
@@ -236,24 +232,28 @@
         <div class="rodape-bg">
             <div class="rodape cor-03">
                 <div class="rodape-intro b1">
-                    <img class="logo-rodape" src="arquivos/logo/logo horizontal.svg" alt="">
+                    <a href="#home"><img class="logo-rodape" src="arquivos/logo/logo horizontal.svg" alt=""></a>
                     <div>
                         <p class="b1 cor-03"><strong>Estou aberto a novas propostas.</strong> Fique à vontade para entrar em contato para marcarmos uma conversa e discutirmos <strong>possíveis oportunidades.</strong></p>
                         <div class="navegacao">
                             <ul class="navegacao-rodape cor-04">
                                 <h4 class="b1 cor-03"><strong>Navegação</strong></h4>
-                                <li class="b3-l"><a href="">Sobre</a></li>
-                                <li class="b3-l"><a href="">Habilidades</a></li>
-                                <li class="b3-l"><a href="">Conhecimentos</a></li>
-                                <li class="b3-l"><a href="">Projetos</a></li>
+                                <li class="b3-l"><a href="#sobre">Sobre</a></li>
+                                <li class="b3-l"><a href="#servicos">Serviços</a></li>
+                                <li class="b3-l"><a href="#conhecimentos">Conhecimentos</a></li>
+
+                                <li class="b3-l"><a href="#projetos">Projetos</a></li>
+
+                                <li class="b3-l"><a href="#cursos">Cursos</a></li>
+
                             </ul>
                             <ul class="contato-rodape cor-04">
                                 <h4 class="b1 cor-03"><strong>Contato</strong></h4>
                                 <li class="b3-l">henriquetcunha00gmail.com</li>
                                 <li class="b3-l">(35) 9 9765-7991</li>
                                 <div>
-                                    <a class="instagram-rodape b3-l" href="">
-                                        <img src="arquivos/icones social/instagram.svg" alt="">
+                                    <a class="instagram-rodape b3-l" href="https://www.instagram.com/ricktcunha/?hl=pt-br" target="_black" rel="external">
+                                        <img src="arquivos/icones social/instagram.svg " alt="">
                                         <li>@ricktcunha</li>
                                     </a>
                                 </div>

@@ -32,6 +32,16 @@
   padding: 50px;
   gap: 20px;
 }
+.cursos-box:hover {
+border: 1px solid var(--p-01);
+background-color: var(--cor-08);
+transition: .5s;
+}
+
+.cursos-box a:hover {
+  color: var(--p-01);
+  transition: .5s;
+  }
 
 @media (max-width: 900px) {
   .cursos-intro {

@@ -42,6 +42,10 @@
   padding-bottom: 50px;
 }
 
+.projetos h3 {
+  padding-top: 50px;
+}
+
 @media (max-width: 900px) {
   .projetos-intro {
     grid-template-columns: 1fr;

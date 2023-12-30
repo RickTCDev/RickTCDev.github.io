@@ -52,12 +52,12 @@
 
 .navegacao li :hover {
   color: var(--p-01);
-  transition: 0.3s;
+  transition: 1s;
 }
 
 .navegacao a :hover {
   color: var(--p-01);
-  transition: 0.3s;
+  transition: 1s;
 }
 
 @media (max-width: 900px) {

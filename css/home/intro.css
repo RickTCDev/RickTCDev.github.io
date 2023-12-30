@@ -17,13 +17,19 @@
   padding-right: 40px;
 }
 
-/*.typewriter:after {
+.blink:after {
     content: "|";
     margin-left: 8px;
     opacity: 1;
     animation: blink 1s infinite;
     color: var(--p-01)
-  } */
+  } 
+
+@keyframes blink {
+    50%{
+     opacity: 0;
+    }
+}
 
 .retrato {
   border-radius: 5px;

@@ -11,7 +11,6 @@
 .formacao-academica-intro {
   display: grid;
   grid-template-columns: 1.1fr 2fr;
-  padding-top: 50px;
   padding-bottom: 100px;
 }
 
@@ -37,7 +36,6 @@
 .faculdade-box:hover {
 border: 1px solid var(--p-01);
 background-color: var(--cor-08);
-transition: .5s;
 }
 
 @media (max-width: 900px) {
@@ -58,6 +56,11 @@ transition: .5s;
     padding-right: 30px;
     padding-left: 30px;
   }
+
+  .formacao-academica-intro{
+    padding-top: 50px;
+  }
+
   .formacao-academica h2 {
     font-size: 1.1rem;
   }

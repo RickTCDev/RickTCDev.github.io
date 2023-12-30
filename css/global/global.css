@@ -41,7 +41,7 @@ img[src$=".jpg"] {
   opacity: 0;
   filter: blur(2px);
   transform: translateY(-10%);
-  transition: all 2s ease;
+  transition: all 1s ease;
 }
 
 .show {
@@ -49,60 +49,4 @@ img[src$=".jpg"] {
   filter: blur(0);
     transform: translateY(0%);
   transition: all 1s ease;
-}
-
-.conhecimentos-box .hidden:nth-child(2){
-transition-delay: 300ms;
-}
-
-.conhecimentos-box .hidden:nth-child(3){
-transition-delay: 500ms;
-}
-
-.conhecimentos-box .hidden:nth-child(4){
-transition-delay: 700ms;
-}
-
-.conhecimentos-box .hidden:nth-child(5){
-transition-delay: 900ms;
-}
-
-.conhecimentos-box .hidden:nth-child(6){
-transition-delay: 1100ms;
-}
-
-.conhecimentos-box .hidden:nth-child(7){
-transition-delay: 1300ms;
-}
-
-.conhecimentos-box .hidden:nth-child(8){
-transition-delay: 1500ms;
-}
-
-.conhecimentos-box .hidden:nth-child(9){
-transition-delay: 1700ms;
-}
-
-.conhecimentos-box .hidden:nth-child(10){
-transition-delay: 1900ms;
-}
-
-.conhecimentos-box .hidden:nth-child(11){
-transition-delay: 2100ms;
-}
-
-.conhecimentos-box .hidden:nth-child(12){
-transition-delay: 2300ms;
-}
-
-.faculdade-lista .hidden:nth-child(2){
-  transition-delay: 300ms;
-}
-
-.habilidades-lista .hidden:nth-child(2){
-  transition-delay: 300ms;
-}
-
-.habilidades-lista .hidden:nth-child(3){
-  transition-delay: 500ms;
 }

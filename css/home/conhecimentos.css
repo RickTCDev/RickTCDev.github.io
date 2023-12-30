@@ -23,7 +23,7 @@
   gap: 20px;
   border: 1px solid var(--p-01);
   background-color: var(--cor-08);
-  transition: .5s;
+  transition: 1s;
 }
 
 .conhecimentos-icones {

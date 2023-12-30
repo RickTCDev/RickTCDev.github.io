@@ -11,7 +11,7 @@
 .box-1:hover {
   border: 1px solid var(--p-01);
   background-color: var(--cor-08);
-  transition: 0.5s;
+  transition: 1s;
   gap: 20px;
   border-radius: 5px;
 }
@@ -30,7 +30,7 @@
 
 .botao-saiba-mais :hover {
   font-weight: 700;
-  transition: 0.3s;
+  transition: 1s;
 }
 
 .botao-saiba-mais-cursos {
@@ -43,7 +43,7 @@
 
 .botao-saiba-mais-cursos :hover {
   font-weight: 700;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 .padding-botton-15px {

@@ -17,6 +17,14 @@
   padding-right: 40px;
 }
 
+/*.typewriter:after {
+    content: "|";
+    margin-left: 8px;
+    opacity: 1;
+    animation: blink 1s infinite;
+    color: var(--p-01)
+  } */
+
 .retrato {
   border-radius: 5px;
   box-shadow: 30px 30px 150px 0px rgba(0, 0, 0, 0.3);
@@ -62,6 +70,7 @@
   .sobre  h2 {
     font-size: 1.1rem ;
   }
+    
   .intro-home p {
     font-size: .9rem;
 }

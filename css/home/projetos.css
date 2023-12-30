@@ -26,6 +26,7 @@
 
 .box-projetos-imagem:hover {
   box-shadow: 0px 0px 30px var(--p-01);
+  transition: 0.5s;
 }
 
 .box-projetos-box {
@@ -81,11 +82,11 @@
     font-size: 1rem;
   }
   .projetos-intro p {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 
   .projeto-desenvolvimentos h3 {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 
   .projeto-desenvolvimentos p {

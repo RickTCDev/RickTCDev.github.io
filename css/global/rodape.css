@@ -1,5 +1,6 @@
 .rodape-bg {
   background-color: var(--cor-06);
+  border-top: 1px solid var(--cor-05);
 }
 .rodape {
   max-width: 1200px;
@@ -22,7 +23,7 @@
 }
 
 .navegacao {
-  padding-top: 100px;
+  padding-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

@@ -47,6 +47,17 @@ img[src$=".jpg"] {
 .show {
   opacity: 1;
   filter: blur(0);
-    transform: translateY(0%);
+  transform: translateY(0%);
   transition: all 1s ease;
+}
+
+abbr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 20%;
+  flex-grow: 1;
+  height: 130px;
 }

@@ -42,9 +42,6 @@
   padding-bottom: 100px;
 }
 
-.projetos h3 {
-}
-
 @media (max-width: 900px) {
   .projetos-intro {
     grid-template-columns: 1fr;
@@ -95,8 +92,25 @@
   .projeto-desenvolvimentos p {
     font-size: 0.6rem;
   }
+
   .projetos-desenvolvimentos-flex {
     gap: 25px;
     padding-bottom: 50px;
+  }
+  .projetos-desenvolvimentos-flex {
+    gap: 0px;
+  }
+
+  .box-projetos-box {
+    margin: 0px;
+  }
+
+  .projeto-desenvolvimentos h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .projetos > h3{
+    padding-bottom: 20px;
   }
 }

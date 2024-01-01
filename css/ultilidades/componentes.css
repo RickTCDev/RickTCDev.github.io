@@ -17,10 +17,24 @@
 }
 
 .botao-saiba-mais {
-  display: flex;
+  align-items: center;
   gap: 5px;
   text-transform: uppercase;
   max-width: max-content;
+}
+
+.seta::after {
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 10px;
+  margin-left: 12px;
+  background: url(../../arquivos/icones/seta.svg);
+  transition: transform 0.2s;
+  align-items: center;
+}
+.seta:hover::after {
+  transform: translateX(4px);
 }
 
 .botao-saiba-mais p {
@@ -28,22 +42,16 @@
   justify-self: center;
 }
 
-.botao-saiba-mais :hover {
-  font-weight: 700;
-  transition: 1s;
-}
-
 .botao-saiba-mais-cursos {
   justify-content: end;
   padding-top: 25px;
   display: flex;
-  gap: 10px;
+  align-items: center;
   text-transform: uppercase;
 }
 
-.botao-saiba-mais-cursos :hover {
-  font-weight: 700;
-  transition: 1s;
+.botao-saiba-mais-cursos p {
+  text-align: center;
 }
 
 .padding-botton-15px {

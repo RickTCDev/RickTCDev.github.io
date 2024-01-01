@@ -19,25 +19,23 @@
   gap: 20px;
 }
 
-.conhecimentos-box :hover {
-  gap: 20px;
-  border: 1px solid var(--p-01);
-  background-color: var(--cor-08);
-  transition: 1s;
-}
-
 .conhecimentos-icones {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  width: 20%;
+  width: 40%;
   flex-grow: 1;
   height: 130px;
   border: 1px solid var(--cor-05);
   border-radius: 5px;
   background-color: var(--cor-07);
+}
+
+.conhecimentos-icones:hover {
+  border: 1px solid var(--p-01);
+  background-color: var(--cor-08);
 }
 
 @media (max-width: 900px) {
@@ -47,12 +45,6 @@
 
   .conhecimentos-intro h2 {
     padding-bottom: 20px;
-  }
-}
-
-@media (max-width: 700px) {
-  .conhecimentos-icones {
-    width: 40%;
   }
 }
 

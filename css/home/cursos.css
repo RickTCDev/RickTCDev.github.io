@@ -33,15 +33,13 @@
   gap: 20px;
 }
 .cursos-box:hover {
-border: 1px solid var(--p-01);
-background-color: var(--cor-08);
-transition: 1s;
+  border: 1px solid var(--p-01);
+  background-color: var(--cor-08);
 }
 
 .cursos-box a:hover {
   color: var(--p-01);
-  transition: 1s;
-  }
+}
 
 @media (max-width: 900px) {
   .cursos-intro {
@@ -59,6 +57,10 @@ transition: 1s;
     padding-right: 30px;
     padding-left: 30px;
   }
+
+  .cursos-intro h2 {
+    padding-bottom: 25px;
+  }
   .cursos-box {
     padding: 25px 50px;
   }
@@ -66,12 +68,16 @@ transition: 1s;
     font-size: 1.1rem;
   }
   .cursos p {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
   .cursos-lista h4 {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
   .cursos-lista p {
     font-size: 0.8rem;
+  }
+
+  .botao-saiba-mais-cursos.seta.button.primaria-01 {
+    font-size: .6rem;
   }
 }

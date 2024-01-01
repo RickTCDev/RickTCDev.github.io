@@ -2,6 +2,10 @@
   background-color: #f0f0f0;
 }
 
+.material-symbols-rounded {
+  display: none;
+}
+
 .header {
   max-width: 1200px;
   margin: 0 auto;
@@ -21,7 +25,7 @@
 
 .header-social a:hover path {
   fill: var(--p-01);
-  transition: 1s
+  transition: 1s;
 }
 
 .header-menu {
@@ -61,5 +65,10 @@
   }
   .header img {
     width: 70%;
+  }
+
+  .header-social path {
+    width: 2px;
+    height: 2px;
   }
 }

@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio - Rick</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <meta name="description" content="Olá! Sou o Rick, graduado em Publicidade e formando em Analise e Desenvolvimento de Sistemas. Atualmente, estudo HTML, CSS, JavaScript e tecnologias relacionadas a afim de aprimorar minhas habilidades em desenvolvimento web. Trago um olhar atento para o design, visando não apenas a funcionalidade, mas também a estética em cada projeto. Mantenho o compromisso com a excelência e o profissionalismo em tudo o que faço.">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="script/script.js">
@@ -15,14 +14,24 @@
     <header id="home" class="header-bg">
         <div class="header hidden">
             <a href="#home"><img src="arquivos/logo/logo.svg" alt="logo"></a>
-            <nav aria-label="primaria" class="header-menu-mobile">
+            <nav aria-label="primaria" class="header-menu">
                 <ul id="" class="header-menu c-04 b3">
                     <li><a href="#habilidades" class="hidden">Habilidades</a></li>
                     <li><a href="#conhecimentos" class="hidden">Conhecimentos</a></li>
                     <li><a href="#projetos" class="hidden">Projetos</a></li>
                 </ul>
             </nav>
-            <nav aria-label="primaria" class="header-social-mobile">
+            <div class="burguer-menu" onclick="menuShow()"><img class="burguer-menu icon" src="arquivos/icones/menu_FILL0_wght400_GRAD0_opsz24.svg" alt=""></div>
+            <div class="menu-burguer">
+                <nav aria-label="primaria" class="header-menu-mobile">
+                    <ul id="" class="header-menu-mobile c-04 b3">
+                        <li class="hidden mobile-list"><a href="#habilidades" class="hidden mobile-list">Habilidades</a></li>
+                        <li class="hidden mobile-list"><a href="#conhecimentos" class="hidden">Conhecimentos</a></li>
+                        <li class="hidden mobile-list"><a href="#projetos" class="hidden">Projetos</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <nav aria-label="primaria" class="header-social">
                 <ul class="header-social">
                     <li><a href="https://github.com/RickTCDev" target="_blank"><svg width="30" height="30" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M5.60172 0C13.3465 0 21.0913 0 28.8371 0C28.8802 0.0129728 28.9214 0.0309352 28.9656 0.0369227C30.4669 0.257461 31.7003 0.979949 32.7296 2.09462C33.6637 3.1055 34.2034 4.30499 34.4104 5.66814V29.2977C34.3957 29.3635 34.379 29.4294 34.3662 29.4963C33.8982 31.997 32.4597 33.6805 30.1617 34.6225C29.5249 34.884 28.8488 34.9918 28.159 34.9908C26.3241 34.9898 24.4883 34.9947 22.6534 34.9868C21.786 34.9828 21.4887 34.6804 21.4445 33.7993C21.4367 33.6516 21.4406 33.5039 21.4406 33.3552C21.4377 31.5569 21.4504 29.7587 21.4239 27.9605C21.4102 27.0424 21.1629 26.1862 20.5467 25.4747C20.479 25.3958 20.3308 25.334 20.3966 25.2032C20.4515 25.0935 20.5938 25.1194 20.7027 25.1054C21.4799 25.0017 22.255 24.8809 22.9988 24.6255C24.4206 24.1375 25.7491 23.4609 26.6283 22.1746C28.0491 20.0949 28.3376 17.7419 28.0295 15.291C27.8794 14.1015 27.3613 13.0567 26.5901 12.1466C26.4586 11.9909 26.3811 11.8472 26.4586 11.6257C26.8766 10.4322 26.802 9.23467 26.4674 8.03618C26.2378 7.2139 26.0857 7.11411 25.2556 7.28375C25.234 7.28774 25.2124 7.29473 25.1908 7.30072C23.9957 7.61107 22.9134 8.17589 21.8841 8.85047C21.6408 9.01014 21.419 9.05604 21.1305 8.9832C18.5215 8.31659 15.9075 8.31759 13.2974 8.98519C13.0227 9.05505 12.8049 9.02311 12.5743 8.86145C11.6745 8.22977 10.6776 7.79468 9.65122 7.42645C9.27836 7.29273 8.89568 7.22687 8.49829 7.24284C8.30891 7.24982 8.18528 7.32467 8.11953 7.51427C7.67406 8.79958 7.51118 10.1048 7.92035 11.4281C8.02338 11.7604 7.99492 11.9879 7.76826 12.2543C7.11378 13.0257 6.69775 13.9249 6.47305 14.9198C6.24736 15.9207 6.26306 16.9266 6.35922 17.9384C6.47599 19.1629 6.78115 20.3314 7.33554 21.4271C8.09599 22.93 9.36961 23.8102 10.8601 24.4249C11.7903 24.8081 12.7705 24.9777 13.7596 25.1114C13.9117 25.1324 14.1786 25.1344 13.949 25.3958C13.4544 25.9587 13.1875 26.6193 13.0659 27.3527C13.0413 27.5004 12.957 27.5942 12.8215 27.6521C11.9963 28.0044 11.1309 28.1291 10.2576 27.9734C9.2813 27.7998 8.59641 27.1611 8.09893 26.3199C7.67897 25.6104 7.14813 25.0316 6.41613 24.6524C5.9579 24.4149 5.47907 24.2682 4.96196 24.359C4.62442 24.4179 4.5734 24.5696 4.76866 24.852C4.9129 25.0605 5.1013 25.2232 5.31618 25.3479C5.73419 25.5904 6.04916 25.9377 6.33371 26.3239C6.70658 26.8298 6.98328 27.3867 7.21092 27.9695C7.64757 29.0871 8.4924 29.6988 9.61001 29.9363C10.5795 30.1429 11.5636 30.1599 12.5468 30.0102C12.9638 29.9463 12.9903 29.9633 12.9933 30.3894C13.0011 31.527 13.007 32.6656 13.0031 33.8032C13.0001 34.5966 12.6243 34.9828 11.8501 34.9848C9.93676 34.9898 8.02338 34.9888 6.10999 34.9848C5.90982 34.9848 5.70965 34.9528 5.51047 34.9259C2.44513 34.5167 0.0116997 31.7336 0.00679356 28.5832C-0.00399988 21.1857 -7.49956e-05 13.7881 0.00581233 6.39062C0.00777478 4.54748 0.740747 3.02068 2.03694 1.75632C3.03975 0.779369 4.23684 0.213553 5.60172 0Z" fill="#111111" />

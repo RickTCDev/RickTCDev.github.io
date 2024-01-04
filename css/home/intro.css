@@ -2,6 +2,10 @@
   background-color: var(--cor-02);
 }
 
+.retrato-div {
+  display: none;
+}
+
 .intro-home {
   max-width: 1200px;
   margin: 0 auto;
@@ -18,17 +22,17 @@
 }
 
 .blink:after {
-    content: "|";
-    margin-left: 8px;
-    opacity: 1;
-    animation: blink 1s infinite;
-    color: var(--p-01)
-  } 
+  content: "|";
+  margin-left: 8px;
+  opacity: 1;
+  animation: blink 1s infinite;
+  color: var(--p-01);
+}
 
 @keyframes blink {
-    50%{
-     opacity: 0;
-    }
+  50% {
+    opacity: 0;
+  }
 }
 
 .retrato {
@@ -41,12 +45,32 @@
 }
 
 @media (max-width: 900px) {
+  .texto-intro h1 {
+  font-size: 3rem;
+  }
+
+@media (max-width: 800px) {
   .intro-home {
     grid-template-columns: 1fr;
   }
-  .intro-home img {
+  .retrato {
     display: none;
   }
+
+  .retrato-div {
+    display: block;
+    padding-bottom: 25px;
+  }
+
+  .retrato-horizontal {
+    height: 20vh;
+    width: 60vh;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 30px 30px 150px 0px rgba(0, 0, 0, 0.3);
+    border: 2px solid var(--p-01);
+  }
+
   .texto-intro {
     padding-right: 0px;
   }
@@ -73,20 +97,20 @@
     padding-left: 30px;
     padding-bottom: 50px;
   }
-  .sobre  h2 {
-    font-size: 1.1rem ;
+  .sobre h2 {
+    font-size: 1.1rem;
   }
-    
+
   .intro-home p {
-    font-size: .9rem;
-}
-.texto-intro > h1 {
-  padding-bottom: 10px;
-}
+    font-size: 0.9rem;
+  }
+  .texto-intro > h1 {
+    padding-bottom: 10px;
+  }
 }
 
-@media (max-width: 400px){
+@media (max-width: 400px) {
   .texto-intro > h1 {
     font-size: 1.65rem;
-}
+  }
 }

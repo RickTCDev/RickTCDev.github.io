@@ -1,0 +1,65 @@
+#pag-link {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 20px;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: space-between;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+#pag-link h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#pag-link h2 {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+#pag-link h3 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#pag-link h4 {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+#pag-link picture {
+  align-items: center;
+  justify-content: center;
+}
+
+.retrato-link {
+  display: flex;
+  border-radius: 50%;
+  border: solid 4px var(--p-01);
+  max-width: 50%;
+}
+
+.logo-link {
+  display: block;
+  max-width: 40%;
+  align-items: center;
+}
+
+.button-link-box {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button-link {
+  padding: 10px 10px;
+  background-color: var(--cor-03);
+  border-radius: 5px;
+}
+
+.orcamento {
+  margin-top: 15px ;
+}

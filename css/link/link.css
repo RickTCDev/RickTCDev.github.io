@@ -1,7 +1,7 @@
 #pag-link {
   display: flex;
   flex-direction: column;
-  padding: 20px 20px;
+  padding: 30px 20px;
   max-width: 300px;
   margin: 0 auto;
   text-align: center;
@@ -22,7 +22,7 @@
 
 #pag-link h3 {
   font-size: .8rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 #pag-link h4 {

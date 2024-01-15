@@ -114,4 +114,8 @@
   .texto-intro > h1 {
     font-size: 1.65rem;
   }
+
+  .retrato-horizontal {
+   margin-bottom: 40px;
+  }
 }

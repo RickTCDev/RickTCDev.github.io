@@ -1,4 +1,3 @@
-@import "link/link.css";
 @import "global/global.css";
 @import "global/header.css";
 @import "ultilidades/componentes.css";
@@ -13,3 +12,4 @@
 @import "home/cursos.css";
 @import "home/experiencia.css";
 @import "global/rodape.css";
+@import "link/link.css";

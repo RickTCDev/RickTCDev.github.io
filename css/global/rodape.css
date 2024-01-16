@@ -4,7 +4,7 @@
 }
 .rodape {
   max-width: 1200px;
-  padding: 100px 100px 100px 100px;
+  padding: 150px 100px 150px 100px;
   margin: 0 auto;
 }
 
@@ -71,14 +71,13 @@
 
 @media (max-width: 500px) {
   .rodape {
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 50px 30px 50px 30px;
   }
   .rodape-intro p {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
   .rodape-intro h4 {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
   .rodape-intro li {
     font-size: 0.8rem;

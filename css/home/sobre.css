@@ -7,7 +7,7 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1.1fr 2fr;
-  padding: 0px 100px 100px 100px;
+  padding: 0px 100px 150px 100px;
 }
 
 @media (max-width: 900px) {
@@ -22,14 +22,13 @@
 
 @media (max-width: 500px) {
   .sobre {
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 0px 30px 50px 30px;
   }
   .sobre h2 {
-    font-size: 1.1rem ;
+    font-size: 1.1rem;
   }
 
   .sobre p {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 }

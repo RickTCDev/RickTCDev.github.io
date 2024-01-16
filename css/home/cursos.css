@@ -4,7 +4,7 @@
 
 .cursos {
   max-width: 1200px;
-  padding: 0px 100px 100px 100px;
+  padding: 0px 100px 150px 100px;
   margin: 0 auto;
 }
 
@@ -54,8 +54,7 @@
 
 @media (max-width: 500px) {
   .cursos {
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 0px 30px 50px 30px;
   }
 
   .cursos-intro h2 {
@@ -78,6 +77,15 @@
   }
 
   .botao-saiba-mais-cursos.seta.button.primaria-01 {
-    font-size: .6rem;
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .cursos-box {
+    padding: 30px;
+  }
+  .faculdade-box {
+    padding: 30px;
   }
 }

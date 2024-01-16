@@ -11,7 +11,7 @@
 .formacao-academica-intro {
   display: grid;
   grid-template-columns: 1.1fr 2fr;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 .faculdade-lista {
@@ -58,7 +58,7 @@ background-color: var(--cor-08);
   }
 
   .formacao-academica-intro{
-    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .formacao-academica h2 {

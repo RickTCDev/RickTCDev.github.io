@@ -10,7 +10,7 @@
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  padding: 0px 100px 100px 100px;
+  padding: 0px 100px 150px 100px;
   grid-template-columns: 2.5fr 1fr;
 }
 .texto-intro > h1 {
@@ -36,7 +36,7 @@
 }
 
 .retrato {
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 30px 30px 150px 0px rgba(0, 0, 0, 0.3);
   border: 2px solid var(--p-01);
   height: 100%;
@@ -94,9 +94,7 @@
     font-size: 2rem;
   }
   .intro-home {
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 50px;
+        padding: 0px 30px 50px 30px;
   }
   .sobre h2 {
     font-size: 1.1rem;
@@ -116,6 +114,10 @@
   }
 
   .retrato-horizontal {
-   margin-bottom: 40px;
+   margin-bottom: 0px;
+  }
+
+  .retrato-div {
+    padding-bottom: 50px;
   }
 }

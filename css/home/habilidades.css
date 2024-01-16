@@ -3,7 +3,7 @@
 }
 .habilidades {
   max-width: 1200px;
-  padding: 100px 100px 100px 100px;
+  padding: 150px 100px 150px 100px;
   margin: 0 auto;
 }
 .habilidades-intro {
@@ -37,17 +37,19 @@
 
 @media (max-width: 500px) {
   .habilidades {
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 50px 30px 50px 30px;
   }
   .habilidades h2 {
     font-size: 1.1rem;
   }
 
   .habilidades p {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
   .habilidades-intro {
     padding-bottom: 50px;
+  }
+  .box-1 {
+    padding: 30px;
   }
 }

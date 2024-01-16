@@ -42,6 +42,7 @@ body {
 .retrato-link {
   display: inline-grid;
   border-radius: 50%;
+  object-fit: cover;
   border: solid 4px var(--p-01);
   max-width: 50%;
 }

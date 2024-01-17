@@ -74,3 +74,112 @@ body {
   background-color: var(--p-01);
   color: var(--cor-02);
 }
+
+.site::before {
+  content: " ";
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  background-image: url(../../arquivos/iconeslink/site.svg);
+  background-size: 1.4rem 1.4rem;
+  position: absolute;
+  left: 0.7rem;
+}
+
+.site {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.instagram::before {
+  content: " ";
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  background-image: url(../../arquivos/iconeslink/instagram.svg);
+  background-size: 1.4rem 1.4rem;
+  position: absolute;
+  left: 0.7rem;
+}
+
+.instagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.behance::before {
+  content: " ";
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  background-image: url(../../arquivos/iconeslink/behance.svg);
+  background-size: 1.4rem 1.4rem;
+  position: absolute;
+  left: 0.7rem;
+}
+
+.behance {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.github::before {
+  content: " ";
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  background-image: url(../../arquivos/iconeslink/github.svg);
+  background-size: 1.4rem 1.4rem;
+  position: absolute;
+  left: 0.7rem;
+}
+
+.github {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.linkedin::before {
+  content: " ";
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  background-image: url(../../arquivos/iconeslink/linkedin.svg);
+  background-size: 1.4rem 1.4rem;
+  position: absolute;
+  left: 0.7rem;
+}
+
+.linkedin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.orcamento::before {
+  content: " ";
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  background-image: url(../../arquivos/iconeslink/orçamento.svg);
+  background-size: 1.4rem 1.4rem;
+  justify-content: center;
+  position: absolute;
+  left: 0.7rem;
+}
+
+.orcamento {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}

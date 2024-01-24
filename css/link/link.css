@@ -51,6 +51,7 @@ body {
   display: inline-grid;
   max-width: 40%;
   align-items: center;
+  margin: 5px 0px;
 }
 
 .button-link-box {
@@ -61,8 +62,13 @@ body {
 
 .button-link {
   padding: 10px 10px;
-  background-color: var(--cor-03);
+  background-color: var(--cor-01);
   border-radius: 5px;
+}
+
+.button-link:hover {
+  background-color: var(--p-02);
+  color: var(--cor-01);
 }
 
 .nome {
@@ -73,6 +79,42 @@ body {
 .orcamento {
   background-color: var(--p-01);
   color: var(--cor-02);
+}
+
+.whats::before {
+  content: " ";
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  background-image: url(../../arquivos/iconeslink/whats.svg);
+  background-size: 1.4rem 1.4rem;
+  position: absolute;
+  left: 0.7rem;
+}
+
+.whats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.email::before {
+  content: " ";
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  background-image: url(../../arquivos/iconeslink/email.svg);
+  background-size: 1.4rem 1.4rem;
+  position: absolute;
+  left: 0.7rem;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .site::before {

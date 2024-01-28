@@ -69,3 +69,17 @@
 .padding-botton-40px {
   padding-bottom: 40px;
 }
+
+.whats-fixed {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 2;
+}
+
+
+@media (max-width: 900px) {
+  .whats-fixed{
+    display: none;
+  }
+}

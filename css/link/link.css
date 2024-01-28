@@ -47,19 +47,19 @@ body {
 }
 
 .icones {
-  display: flex;
-  justify-content: center;
-  height: 2rem;
-  gap: 20px;
-  fill: var(--p-01);
+  display: flex !important;
+  justify-content: center !important;
+  height: 2rem !important;
+  gap: 20px !important;
+  fill: var(--p-01) !important;
 }
 
 .botao-social {
-  max-width: max-content;
+  max-width: max-content !important;
 }
 
 .icones :hover {
-  fill: var(--p-02);
+  fill: var(--p-02) !important;
 }
 
 .slogan {

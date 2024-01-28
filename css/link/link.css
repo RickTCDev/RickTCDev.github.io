@@ -204,10 +204,10 @@ body {
   }
 
   .icones {
-    display: flex;
-    justify-content: center;
-    height: 2.7rem;
-    gap: 20px;
+    display: flex !important;
+    justify-content: center !important;
+    height: 2.7rem !important;
+    gap: 20px !important;
   }
 
   #pag-link {
